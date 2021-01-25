@@ -1,0 +1,71 @@
+.btn {
+  border-radius: 200px !important
+}
+a.start-activity {
+  border-radius: 200px !important
+}
+a.mod-signup {
+  border-radius: 200px !important
+}
+a.btn.btn-white.rkjyHUUdvffIISnBNNKAkQqMJGBAuYRiy {
+  background-color: var(--color-danger) !important
+  color: var(--color-light) !important
+}
+div.server-b-tutorials {
+  display: none !important
+}
+div.ad {
+  display: none !important
+}
+aside.sidebar {
+  display: none !important
+}
+div.header-ad {
+  display: none !important
+}
+div.server-status-ad {
+  display: none !important
+}
+div.server {
+  border-radius: 200px !important
+}
+div.server-body:hover {
+  background: #66000000 !important
+}
+div.server.offline {
+  border-color: var(--color-dark); !important
+}
+div.server.online {
+  border-color: var(--color-dark); !important
+}
+i.far.fa-sad-tear {
+  display: none !important
+}
+div.server-info-box-body {
+  border-radius: 20px !important
+}
+div.server-info-box-title {
+  background: transparent !important
+}
+i.fas.fa-ban {
+  display: none !important
+}
+btn.btn-red {
+  background-color: var(--color-light) !important
+  color: var(--color-danger) !important
+}
+div.navigation-darkmode-toggle.js-darkmode-toggle {
+  display: none !important
+}
+span.js-darkmode-toggle {
+  display: none !important
+}
+a.start-activity.green {
+  display: none !important
+}
+a.start-activity-list {
+  justify-content: space-around !important
+}
+li.blocks-item {
+  border-radius: 200px !mportant
+}

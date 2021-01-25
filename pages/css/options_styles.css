@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Product Sans"
+  src: local("Product-Sans-Regulsar.woff"), format("woff")
+}
+h1 {
+  font-family: "Product Sans" !important
+}
+h2 {
+  font-family: "Product Sans" !important
+}
+h3 {
+  font-family: "Product Sans" !important
+}
+h4 {
+  font-family: "Product Sans" !important
+}
+h5 {
+  font-family: "Product Sans" !important
+}
+h6 {
+  font-family: "Product Sans" !important
+}

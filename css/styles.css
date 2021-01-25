@@ -1,0 +1,429 @@
+.btn {
+  transition: 0.5s !important;
+  border-radius: 200px !important
+}
+a.start-activity {
+  transition: 0.5s !important;
+  border-radius: 200px !important
+}
+a.mod-signup {
+  transition: 0.5s !important;
+  border-radius: 200px !important;
+}
+div.server-b-tutorials {
+  display: none !important
+}
+div.ad {
+  display: none !important
+}
+aside.sidebar {
+  display: none !important
+}
+div.header-ad {
+  display: none !important
+}
+div.server-status-ad {
+  display: none !important
+}
+i.far.fa-sad-tear {
+  display: none !important
+}
+div.server-info-box-body {
+  transition: 0.3s !important;
+  border-bottom-left-radius: 15px !important;
+  border-bottom-right-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  border-top-left-radius: 0px !important
+}
+i.fas.fa-ban {
+  display: none !important
+}
+btn.btn-red {
+  transition: 0.5s !important;
+  background-color: #f0f0f0 !important;
+  color: #F62451 !important
+}
+a.start-activity.green {
+  transition: 0.5s !important;
+  display: none !important
+}
+a.start-activity-list {
+  transition: 0.5s !important;
+  justify-content: space-around !important
+}
+li.blocks-item {
+  transition: 0.5s !important;
+  border-radius: 200px !important
+}
+div.navigation-server-name {
+  transition: 0.5s !important;
+  font-weight: normal !important
+}
+div.mclist-options.mobile-full-width {
+  transition: 0.5s !important;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+  margin-bottom: 0px !important
+}
+div.config-options-file {
+  transition: 0.5s !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  margin-top: 0px !important
+}
+div.config-option-output {
+  transition: 0.5s !important;
+  background: #2d3943 !important
+}
+div.config-option-input {
+  transition: 0.5s !important;
+  border-radius: 20px !important
+}
+input.text-input {
+  transition: 0.5s !important;
+  border-radius: 20px !important
+}
+div.select {
+  transition: 0.5s !important;
+  border-radius: 20px !important
+}
+div.select-options {
+  transition: 0.5s !important;
+  border-radius: 20px !important
+}
+a.mod-signup {
+  transition: 0.5s !important
+}
+@font-face {
+  font-family: "Product Sans";
+  src: local("Product-Sans-Regular.woff"), format("woff")
+}
+a.start-activity {
+  transition: 0.5s !important;
+width: 50% !important
+}
+div.status {
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important
+}
+div.server-ip {
+  padding: 20px !important;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important;
+  transition: 0.3s !important
+}
+div.server-info-box-title {
+  border-top-left-radius: 15px !important;
+  border-top-right-radius: 15px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important
+}
+div.navigation-server {
+  border-top-right-radius: 200px !important;
+  border-bottom-right-radius: 200px !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  transition: 0.5s !important;
+  border-top: 0px solid !important;
+  border-bottom: 0px solid !important;
+  border-left: 2px solid !important;
+  border-right: 0px solid !important;
+  border-color: #fff !important
+}
+div.navigation-server.offline {
+  background: #f62451 !important;
+  border-color: #fff !important
+}
+div.navigation-server.online {
+  background: #1fd78d !important;
+  border-color: #fff !important
+}
+div.navigation-server.queueing {
+  background: #d36e4f !important;
+  border-color: #fff !important
+}
+div.navigation-server:hover {
+  box-shadow: 0 2px 2px #161c21 !important
+}
+a.playerlist-menu-item.blue {
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-top-left-radius: 20px !important;
+  border-top-right-radius: 20px !important
+}
+a.playerlist-menu-item.red {
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important
+}
+a.playerlist-menu-item {
+  border-bottom-right-radius: 20px !important;
+  margin-bottom: 0px !important
+}
+i.fas.fa-stop-circle {
+  color: #fff !important
+}
+i.fas.fa-spinner-third.fa-spin  {
+  color: #fff !important
+}
+i.fas.fa-exclamation-triangle  {
+  color: #fff !important
+}
+div.navigation-server.loading {
+  background: #a4a4a4 !important;
+  border-color: #fff !important
+}
+div.navigation-server-detail.navigation-server-id {
+  color: #f0edd1 !important
+}
+div.statusplayerbadge {
+  background: #1bc17e !important
+}
+div.status {
+  transition: 0.5s !important
+}
+a.item {
+  transition: 0.3s !important;
+  font-size: 14px !important
+}
+a.item:hover {
+  transition: 0.3s !important;
+  box-shadow: 0 2px 2px #161c21 !important
+}
+nav.navigation > a.item:hover {
+  transition: 0.3s !important;
+  box-shadow: 0 2px 2px #161c21 !important;
+  font-size: 16px !important;
+  width: 100% !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  padding-left: 8px !important
+}
+.btn:hover {
+  box-shadow: 0 2px 2px #161c21 !important
+}
+.btn {
+  transition: 0.3s !important
+}
+a.start-activity {
+  transition: 0.3s !important;
+  width: 100% !important
+}
+a.start-activity:hover {
+  box-shadow: 0 3px 3px #0a0d0f !important
+}
+div#start {
+  transition: 0.3s !important
+}
+div#start:hover {
+  box-shadow: 0 3px 3px #0a0d0f !important
+}
+div.number-input {
+  transition: 0.3s !important
+}
+div.number-input:hover {
+  box-shadow: 0 3px 3px #0a0d0f !important
+}
+div.select {
+  transition: 0.3s !important
+}
+div.select:hover {
+  box-shadow: 0 3px 3px #0a0d0f !important
+}
+input.text-input {
+  transition: 0.3s !important
+}
+input.text-input:hover {
+  box-shadow: 0 3px 3px #0a0d0f !important
+}
+div.toggle {
+  transition: 0.3s !important
+}
+div.toggle:hover {
+  box-shadow: 0 3px 3px #0a0d0f !important
+}
+div.mclogs-share.btn.btn-main.btn-large.btn-no-margin {
+  transition: 0.3s !important
+}
+div.mclogs-share.btn.btn-main.btn-large.btn-no-margin:hover {
+  box-shadow: 0 3px 3px #0a0d0f !important
+}
+div.navigation-server {
+  width: 0% !important;
+  border-left: 0px !important;
+  transition: 0.4s !important
+}
+div.navigation-server:hover {
+  width: 100% !important
+}
+div.navigation-server:hover > div.navigation-server-icon.statusicon {
+  opacity: 1 !important;
+  color: #fff !important
+}
+div.navigation-server-icon.statusicon {
+  opacity: 0 !important;
+  color: #fff !important;
+  transition: 0.3s !important
+}
+div.navigation-server:hover > div.navigation-server-info {
+  display: block !important
+}
+div.navigation-server-info {
+  transition: 0.3s !important
+}
+div.btn.btn-white.rkjyHUUdvffIISnBNNKAkQqMJGBAuYRiy strong {
+  display: none !important
+}
+div.status-console {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 20px !important;
+  border-bottom-right-radius: 20px !important;
+  transition: 0.2s !important
+}
+div.status.loading.starting {
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important
+}
+i.fas.fa-clock {
+  color: #fff !important
+}
+nav.navigation.toggled > div.navigation-server {
+  display: none !important
+}
+div.navigation-server-detail.navigation-server-id {
+  transition: 0.3s !important
+}
+nav.navigation.toggled > a.item {
+  padding-left: 15px !important
+}
+div.btn btn-main.btn-notext-mobile:hover > i.fas.fas-question-circle::before {
+  display: inline-block !important
+}
+i.fas.fas-question-circle::before {
+  display: none !important
+}
+div.btn btn-main.btn-notext-mobile {
+  transition: 0.3s !important
+}
+i.fas.fas-question-circle {
+  transition: 0.3s !important
+}
+nav.navigation {
+  transition: 0.3s !important
+}
+header.header {
+  transition: 0.3s !important
+}
+div.account-navigation > a.item:hover {
+  padding-left: 22px !important;
+  padding-right: 22px !important
+}
+div.account-navigation > a.item:hover ~ a.item {
+  padding-left: 18px !important;
+  padding-right: 18px !important
+}
+div.navigation-server:hover > div.navigation-server-info > div.navigation-server-name {
+  color: #FFF !important;
+  width: 100% !important;
+}
+div.navigation-server:hover > div.navigation-server-info > div.navigation-server-detail.navigation-server-id {
+  color: #FFF !important;
+  width: 100% !important;
+}
+div.navigation-server-name {
+  transition: 0.3s !important;
+}
+div.div.navigation-server-detail.navigation-server-id {
+  transition: 0.3s !important;
+}
+nav.navigation{
+  scrollbar-width: none !important;
+}
+section.content {
+  scrollbar-width: none !important;
+}
+html {
+  scrollbar-width: none !important;
+}
+
+div.navigation-server.online > div.navigation-server-info > div.navigation-server-name {
+  color: #1fd78d !important;
+  width: 0% !important;
+}
+div.navigation-server.online > div.navigation-server-info > div.navigation-server-detail.navigation-server-id {
+  color: #1fd78d !important;
+  width: 0% !important;
+}
+
+div.navigation-server.loading > div.navigation-server-info > div.navigation-server-name {
+  color: #a4a4a4 !important;
+  width: 0% !important;
+}
+div.navigation-server.loading > div.navigation-server-info > div.navigation-server-detail.navigation-server-id {
+  color: #a4a4a4 !important;
+  width: 0% !important;
+}
+
+div.navigation-server.offline > div.navigation-server-info > div.navigation-server-name {
+  color: #F62451 !important;
+  width: 0% !important;
+}
+div.navigation-server.offline > div.navigation-server-info > div.navigation-server-detail.navigation-server-id {
+  color: #F62451 !important;
+  width: 0% !important;
+}
+
+div.navigation-server.queueing > div.navigation-server-info > div.navigation-server-name {
+  color: #EB7B59 !important;
+  width: 0% !important;
+}
+div.navigation-server.queueing > div.navigation-server-info > div.navigation-server-detail.navigation-server-id {
+  color: #EB7B59 !important;
+  width: 0% !important;
+}
+
+div.navigation-server.online:hover > div.navigation-server-info > div.navigation-server-name {
+  color: #FFF !important;
+  width: 100% !important;
+}
+div.navigation-server.online:hover > div.navigation-server-info > div.navigation-server-detail.navigation-server-id {
+  color: #FFF !important;
+  width: 100% !important;
+}
+
+div.navigation-server.loading:hover > div.navigation-server-info > div.navigation-server-name {
+  color: #FFF !important;
+  width: 100% !important;
+}
+div.navigation-server.loading:hover > div.navigation-server-info > div.navigation-server-detail.navigation-server-id {
+  color: #FFF !important;
+  width: 100% !important;
+}
+
+div.navigation-server.offline:hover > div.navigation-server-info > div.navigation-server-name {
+  color: #FFF !important;
+  width: 100% !important;
+}
+div.navigation-server.offline:hover > div.navigation-server-info > div.navigation-server-detail.navigation-server-id {
+  color: #FFF !important;
+  width: 100% !important;
+}
+
+div.navigation-server.queueing:hover > div.navigation-server-info > div.navigation-server-name {
+  color: #FFF !important;
+  width: 100% !important;
+}
+div.navigation-server.queueing:hover > div.navigation-server-info > div.navigation-server-detail.navigation-server-id {
+  color: #FFF !important;
+  width: 100% !important;
+}

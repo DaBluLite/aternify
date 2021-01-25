@@ -1,0 +1,719 @@
+@media all and (max-width:1800px) {
+ .server-info-box-title {
+  font-size:14px;
+  padding:4px 12px
+ }
+ .server-info-box-body {
+  padding:6px 12px;
+  font-size:20px
+ }
+ .server-info-box-actions .btn-text {
+  display:none
+ }
+ .server-info-box-actions .btn {
+  padding:4px 6px
+ }
+ .server-info-box-actions .btn i {
+  padding:0;
+  margin:0
+ }
+ .config-options {
+  grid-template-columns:1fr 1fr
+ }
+ .config-option-full-width {
+  grid-column:1/span 2
+ }
+ .permissions {
+  grid-template-columns:repeat(3,1fr)
+ }
+}
+@media all and (max-width:1600px) {
+ .options-toggles>div,
+ .misc-options>div {
+  width:50%;
+  padding:8px 14px
+ }
+ .resource-pack-option {
+  padding:8px 14px;
+  width:100%
+ }
+ .options-other-switch-container {
+  width:100%;
+  margin:0 0 10px
+ }
+ .start-activity {
+  padding:8px
+ }
+ .start-activity-icon {
+  font-size:32px
+ }
+ .start-activity-text {
+  font-size:18px
+ }
+ .server-info-box-value {
+  font-size:16px
+ }
+ .navigation {
+  width:260px;
+  flex-basis:260px
+ }
+ .navigation .item,
+ .account-navigation .item {
+  font-size:18px
+ }
+ .sidebar {
+  padding:12px
+ }
+}
+@media all and (max-width:1500px) {
+ .social>a {
+  font-size:18px
+ }
+ .server-tutorials h3 {
+  font-size:16px
+ }
+ .server-info-box-title {
+  padding:3px 8px;
+  font-size:12px
+ }
+ .server-info-box-title i {
+  margin-right:2px
+ }
+ .server-info-box-body {
+  padding:4px 8px
+ }
+ .server-info-box-value {
+  font-size:14px
+ }
+ .navigation {
+  width:220px;
+  flex-basis:220px
+ }
+ .navigation .item i {
+  font-size:18px;
+  width:24px
+ }
+ .account-navigation .item i:first-of-type {
+  margin-bottom:4px;
+  font-size:22px
+ }
+ .account-navigation .item {
+  font-size:16px;
+  padding:8px 20px
+ }
+ .navigation-server {
+  padding:10px 12px
+ }
+ .navigation-server-name {
+  font-size:15px
+ }
+ .navigation-server-icon {
+  font-size:19px
+ }
+ .navigation-server-detail {
+  font-size:9px
+ }
+ .navigation .item {
+  font-size:14px;
+  padding:8px 6px
+ }
+ .sidebar {
+  padding:6px
+ }
+}
+@media all and (max-width:1400px) {
+ .header {
+  height:80px
+ }
+ .body {
+  height:calc(100% - 80px)
+ }
+ .header .logo {
+  height:48px
+ }
+ .server-status {
+  margin-bottom:10px
+ }
+ .server-ip {
+  padding:16px 3px;
+  border-radius: 20px;
+ }
+ .server-tutorials {
+  padding:8px 20px 4px
+ }
+ .server-bottom {
+  margin-top:8px
+ }
+ .social {
+  display:none
+ }
+ .server-tutorials h3 {
+  display:none
+ }
+ .ad.nvu {
+  padding:0
+ }
+ .playerlist-menu-item {
+  width:49%
+ }
+ .navigation {
+  width:200px;
+  flex-basis:200px
+ }
+}
+@media all and (max-width:1300px) {
+ .start-activity {
+  width:47%
+ }
+ .start-activity-list {
+  flex-wrap:wrap
+ }
+ .server-bottom {
+  flex-wrap:wrap
+ }
+ .permissions {
+  grid-template-columns:repeat(2,1fr)
+ }
+}
+@media all and (max-width:1200px) {
+ .options-toggles>div,
+ .misc-options>div {
+  width:50%;
+  padding:8px 12px
+ }
+ .resource-pack-option {
+  padding:8px 12px;
+  width:100%
+ }
+ .help {
+  margin-left:12px
+ }
+ .config-options {
+  grid-template-columns:1fr
+ }
+ .config-option-full-width {
+  grid-column:1/span 1
+ }
+}
+@media all and (max-width:1000px) {
+ .status,
+ .social,
+ .usertext,
+ .mobile-hide,
+ .line-number,
+ .ad.responsive-skyscraper .ad-replacement,
+ .account-navigation,
+ .usericon .desktop-icon,
+ .header-ad {
+  display:none
+ }
+ .hamburger,
+ .usericon .mobile-icon {
+  display:block
+ }
+ .header {
+  height:60px
+ }
+ .content h1 {
+  font-size:24px;
+  margin-bottom:8px
+ }
+ .content h2 {
+  font-size:18px
+ }
+ .logo {
+  max-height:36px;
+  flex-grow:1;
+  text-align:center;
+  padding:0 5px
+ }
+ .user {
+  padding:0 12px;
+  border-left:none
+ }
+ .usertext {
+  padding-right:8px
+ }
+ .usericon>a>i {
+  font-size:32px
+ }
+ .body {
+  height:calc(100% - 60px)
+ }
+ .btn-notext-mobile {
+  padding:8px 10px
+ }
+ .btn.btn-notext-mobile i {
+  padding:0;
+  margin:0
+ }
+ .btn-notext-mobile span {
+  display:none
+ }
+ .help {
+  margin-left:4px
+ }
+ .error {
+  font-size:12px;
+  padding:8px;
+  margin:8px 0
+ }
+ .error i {
+  margin-right:4px
+ }
+ .navigation {
+  position:absolute;
+  width:200px;
+  top:0;
+  left:-200px
+ }
+ .navigation .item,
+ .userdropdown a {
+  font-size:14px
+ }
+ .navigation-server {
+  padding:8px 12px
+ }
+ .navigation-server-name {
+  font-size:14px
+ }
+ .navigation-server-icon {
+  font-size:18px
+ }
+ .navigation-server-detail {
+  font-size:8px
+ }
+ .navigation.toggled {
+  width:60px
+ }
+ .navigation-toggle {
+  padding:8px 20px;
+  font-size:28px
+ }
+ .navigation-settings {
+  min-height:53px
+ }
+ .navigation-darkmode-toggle {
+  font-size:18px
+ }
+ .content {
+  padding:20px 15px 10px
+ }
+ .content .mobile-full-width,
+ .config-options-file {
+  margin:8px -15px;
+  width:auto;
+  border-radius:0
+ }
+ .server-status-ad-container {
+  margin:0 -15px
+ }
+ .content .server-ip.mobile-full-width {
+  margin-bottom:0
+ }
+ .ad.mobile-fixed-bottom {
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:0
+ }
+ .server-ip {
+  font-size:22px;
+  border-radius:0
+ }
+ .console {
+  border-radius:0
+ }
+ .console .out {
+  height:380px
+ }
+ .software-type {
+  max-width:100%;
+  display:flex;
+  align-items:center
+ }
+ .software-icon {
+  background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1));
+  font-size:32px;
+  width:64px;
+  padding:12px
+ }
+ .software-label {
+  background-image:none
+ }
+ .software-addon-label {
+  font-size:12px;
+  padding:2px 4px
+ }
+ .version-title .version-title-name {
+  padding:16px 12px
+ }
+ .version-title .version-title-name {
+  font-size:18px
+ }
+ .version .version-link .btn {
+  word-break:break-all;
+  padding:0
+ }
+ .version .version-link .btn i {
+  display:none
+ }
+ .version {
+  padding:8px 12px;
+  font-size:14px
+ }
+ .version-link .btn {
+  font-size:14px
+ }
+ .version-dependencies-title {
+  font-size:14px
+ }
+ .version-dependency-name {
+  font-size:12px
+ }
+ .version-dependency-version {
+  font-size:10px
+ }
+ .mclist-options-left {
+  flex-direction:column;
+  align-items:center
+ }
+ .mclist-options {
+  flex-direction:column
+ }
+ .mclist-options-buttons {
+  margin-left:0;
+  margin-top:18px
+ }
+ .mclist-options-texts {
+  margin-top:12px
+ }
+ .serverip {
+  font-size:16px;
+  text-align:center
+ }
+ .motd {
+  font-size:13px;
+  line-height:20px;
+  text-align:center
+ }
+ .options-toggles>div,
+ .misc-options>div {
+  width:100%;
+  padding:8px 10px
+ }
+ .resource-pack-option {
+  width:100%;
+  padding:8px 10px
+ }
+ .server-status {
+  margin:0 -15px 16px
+ }
+ .server-status .status {
+  border-radius:0;
+  font-size:16px
+ }
+ .server-status .status-console {
+  border-radius:0
+ }
+ .status-console-button {
+  display:none
+ }
+ .server-status .statuslabel-label {
+  font-size:18px
+ }
+ .queue-position {
+  display:none!important
+ }
+ .server-actions {
+  min-height:61px
+ }
+ .server-actions .btn-huge {
+  padding:10px 15px 10px 10px;
+  font-size:20px
+ }
+ .server-actions .btn-huge i {
+  margin-right:5px
+ }
+ .server-actions .btn-huge.btn-clickme i:before {
+  width:20px
+ }
+ .server-info {
+  margin-top:14px
+ }
+ .server-tutorials h3 {
+  font-size:16px
+ }
+ .list {
+  width:100%
+ }
+ .path {
+  padding:4px
+ }
+ .path .part,
+ .path .btn {
+  font-size:12px;
+  padding:4px 6px
+ }
+ .path .files-folder-count {
+  font-size:8px;
+  padding:2px 4px;
+  margin-right:4px
+ }
+ .path .part {
+  margin:1px
+ }
+ .path .part:not(:first-child) i {
+  display:none
+ }
+ .path>.path-button-group {
+  margin:0 0 0 auto
+ }
+ .file {
+  font-size:12px;
+  padding:4px 6px
+ }
+ .file .btn,
+ .file-create .btn {
+  font-size:12px;
+  padding:4px 6px
+ }
+ .file-create input,
+ .file-create .btn {
+  font-size:12px
+ }
+ .file-create .btn {
+  padding:4px 6px
+ }
+ .file-create {
+  font-size:12px;
+  padding:4px 6px
+ }
+ .plugin-versions .supported,
+ .plugin-versions .date {
+  display:none
+ }
+ .plugin-search {
+  width:100%
+ }
+ .world {
+  width:100%
+ }
+ .world-icon {
+  display:none
+ }
+ .world-icon-name {
+  display:inline
+ }
+ .world-info {
+  padding-left:0;
+  width:100%
+ }
+ .world-upgrade-settings {
+  width:100%;
+  padding-right:8px
+ }
+ .toggle-world-upgrade {
+  margin-right:0
+ }
+ .world-name {
+  width:100%;
+  margin-bottom:12px
+ }
+ .toggle-world-upgrade:last-child {
+  margin-bottom:10px
+ }
+ .world-actions {
+  margin-left:0;
+  width:100%;
+  flex-direction:row;
+  flex-wrap:wrap
+ }
+ .world-actions>.btn,
+ .upload-button-wrapper {
+  margin-right:8px;
+  flex-grow:1
+ }
+ .alert-error-message {
+  padding:4px 8px;
+  font-size:14px
+ }
+ .alert-form {
+  font-size:14px
+ }
+ .alert-form>* {
+  align-items:center
+ }
+ .alert-form-label {
+  padding-right:6px
+ }
+ .alert-form input[type=text] {
+  max-width:60%
+ }
+ .account-settings {
+  grid-template-columns:1fr
+ }
+ .mclogs-share {
+  font-size:16px;
+  padding:8px 12px 8px 10px
+ }
+ .log {
+  font-size:12px;
+  overflow-y:scroll
+ }
+ .start-activity-list {
+  flex-direction:column
+ }
+ .start-activity {
+  flex-direction:row;
+  width:100%
+ }
+ .start-activity-icon {
+  padding:0;
+  font-size:28px
+ }
+ .backup-time {
+  font-size:8px
+ }
+ .backup-header-auto {
+  flex-direction:column
+ }
+ .backup-header-auto .backup-auto {
+  margin-left:0
+ }
+ .permissions .toggle-container {
+  width:100%
+ }
+ .options-other-switch-container {
+  margin-left:0;
+  margin-right:0
+ }
+ .playerlist-menu-item {
+  width:100%;
+  margin-left:0
+ }
+ .server-bottom {
+  flex-direction:column-reverse
+ }
+ .server-b-tutorials {
+  margin:15px -15px;
+  padding:0
+ }
+ .server-tutorials {
+  width:100%;
+  border-radius:0
+ }
+ .server-tutorials h3 {
+  display:block
+ }
+ .file .filesize {
+  font-size:8px
+ }
+ .auto-setting>label {
+  font-size:14px
+ }
+ .servers,
+ .servers.single {
+  min-width:100%;
+  grid-template-columns:1fr
+ }
+ .servers.single .server {
+  grid-column:auto
+ }
+ .navigation-server-icon .statusplayerbadge {
+  font-size:10px;
+  padding:4px 5px
+ }
+ .transactions-title {
+  flex-direction:column;
+  align-items:initial
+ }
+ .transactions-title-credits-wrapper {
+  width:100%
+ }
+ .transactions-title-credits {
+  font-size:18px;
+  padding:6px 12px
+ }
+ .transactions-title-credits-wrapper.with-account {
+  padding:4px 4px 2px
+ }
+ .transactions-title-credits-account {
+  font-size:12px;
+  margin-top:2px
+ }
+ .credits-links {
+  grid-template-columns:1fr
+ }
+ .payments {
+  grid-template-columns:1fr
+ }
+ .payment-body {
+  font-size:18px
+ }
+ .console-offline-text {
+  font-size:50px
+ }
+}
+@media all and (max-width:848px) {
+ .sidebar {
+  padding:0
+ }
+ .options-other-switch-container {
+  min-width:0
+ }
+ .options-other-switch .select {
+  width:100%
+ }
+ .plugin-list {
+  grid-template-columns:1fr
+ }
+ .server-info {
+  margin:8px -15px
+ }
+ .server-info-box-title {
+  padding:4px 10px;
+  border-top-left-radius:0;
+  font-size:14px
+ }
+ .server-info-box-body {
+  padding:8px 12px;
+  border-radius:0
+ }
+ .server-info-box-value {
+  font-size:20px
+ }
+ .server-info-box-actions {
+  display:block
+ }
+ .domains-page {
+  flex-direction:column;
+  align-items:stretch
+ }
+ .domains-info {
+  max-width:100%
+ }
+ .domains-info-box {
+  width:100%;
+  margin-top:18px
+ }
+ .domains {
+  margin-right:0
+ }
+ .permissions {
+  grid-template-columns:1fr
+ }
+ .config-option-full-width.config-option-text .text-input {
+  width:100%;
+  max-width:100%
+ }
+}
+@media all and (max-width:500px) {
+ .page-error-icon {
+  display:none
+ }
+ .page-error-text {
+  padding-left:0
+ }
+}
