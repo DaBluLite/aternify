@@ -1,0 +1,58 @@
+{
+
+  "manifest_version": 2,
+  "name": "Aternify Ultimate",
+  "short_name": "Aternify",
+  "version": "11.1",
+  "permissions": ["*://*.aternos.org/*", "tabs", "storage"],
+  "web_accessible_resources": ["styles.css", "main.js", "icons/aternos-logo.png", "aternify-debug"],
+
+  "description": "The Ultimate Aternos experience. Adblocker, element remover, Anti-AdBlock remover and more!",
+
+  "author": "DaBluLite",
+
+  "icons": {
+    "48": "icons/48-new.png",
+    "128": "icons/128-new.png"
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+  
+  "content_scripts": [
+    {
+      "matches": ["*://*.aternos.org/*"],
+      "js": ["main.js"],
+      "css": ["styles.css"],
+      "run_at": "document_start"
+    }
+  ],
+  
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Aternify Search",
+      "search_url": "https://minecraftservers.org/search/{searchTerms}",
+      "keyword": "@aternify-search",
+      "favicon_url": "favicon.ico",
+      "is_default": false
+    }
+  },
+
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/48-new.png",
+      "128": "icons/128-new.png"
+    },
+    "default_title": "Aternify Ultimate"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "aternify-ultimate@hypeware.weebly.com"
+    }
+  }
+
+}
